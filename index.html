@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Fundamentals Certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript fundamentals certificate</h1>
+        <input type="text" id="name" placeholder="Enter student name">
+        <input type="date" id="date">
+        <input type="number" id="marks" placeholder="Enter marks">
+        <div class="checkboxes">
+            <label>
+                <input type="checkbox" id="html"> HTML completed
+            </label>
+            <label>
+                <input type="checkbox" id="css"> CSS completed
+            </label>
+            <label>
+                <input type="checkbox" id="js">JAVASCRIPT completed
+            </label>
+        </div>
+        <button onclick="generateCertificate()">Generate Certificate</button>
+        <div id="certificate"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
