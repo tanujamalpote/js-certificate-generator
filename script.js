@@ -16,9 +16,10 @@ function generateCertificate() {
         certificate.innerHTML = "<h3> Please Complete all Fields</h3>";
         return;
     }
+    document.getElementById("certificate").style.display="block";
     certificate.innerHTML = `
     <div class="certificate-box">
-    <h2>Certificate of Completion</h2>
+    <h2><i>Certificate of Completion</i></h2>
     <p>This is to Certify that </p>
     <div class="name">${name} </div>
     <p> 
